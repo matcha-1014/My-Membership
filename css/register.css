@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 40px 0;
+  max-width: 960px;
+}
+
+header a {
+  color: white;
+}
+
+header {
+  background-color: tomato;
+}
+
+header h1 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #202030;
+  color: white;
+  text-align: center;
+  height: 100px;
+  padding: 40px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 40px;
+  padding: 10px 20px 10px;
+  background-color: tomato;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 1px 3px 3px #a09090;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  position: relative;
+  box-shadow: none;
+  top: 3px;
+  left: 1px;
+}
+
+.text {
+  font-weight: bold;
+}
+
+.subtext {
+  margin-bottom: 60px;
+}
+
+.address {
+  display: block;
+  margin-top: 40px;
+}
+
+.reason {
+  margin-top: 40px;
+}
+
+#addressInput {
+  width: 500px;
+}
